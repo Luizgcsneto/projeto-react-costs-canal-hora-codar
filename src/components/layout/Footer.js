@@ -17,7 +17,7 @@ export default function Footer(){
                         </li>
                     </ul>
                     <p className={styles.copy_right}>
-                        <span>Costs</span> &copy; 2021 
+                        <span>Costs</span> &copy; 2022 
                     </p>
             </footer>
         </>

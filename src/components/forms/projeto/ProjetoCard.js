@@ -19,7 +19,7 @@ export default function ProjetoCard({id,nomeProjeto, valorProjeto, categoria, ha
                 <p className={styles.categoria_text}><span className={`${styles[categoria.nome]}`}></span>{categoria.nome}</p>
               
                 <div className={styles.projeto_card_actions}>
-                    <Link to='/'>
+                    <Link to={`/projeto/${id}`}>
                         <BsPencil /> Editar
                     </Link>
                     <button onClick={remove}>
